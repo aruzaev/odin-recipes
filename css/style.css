@@ -4,6 +4,44 @@ body {
     background-color: black;
 }
 
+.main {
+    display: inline-block;
+    border: 2px solid yellow;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.navbar {
+    display: inline-block;
+    border: 2px solid yellow;
+    margin-right: 0 auto;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 200px;
+}
+
+.pendejo {
+    display: inline-block;
+    margin-left: 40%;    
+    width: 100px;
+    float: right;
+}
+
+.menuItems {
+    padding-top: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
 li {
-    color: white
+    margin: 7px;
+    display: inline-block;
+    color: white;
 }
